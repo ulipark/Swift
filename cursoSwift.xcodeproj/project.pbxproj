@@ -49,7 +49,7 @@
 		DD3FAEFE1BD82017001C0957 /* cursoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cursoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3FAF021BD82017001C0957 /* cursoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursoSwiftUITests.swift; sourceTree = "<group>"; };
 		DD3FAF041BD82017001C0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD3FAF111BD82398001C0957 /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = miniReto.playground; sourceTree = "<group>"; };
+		DD3FAF111BD82398001C0957 /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = miniReto.playground; path = ../miniReto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,6 @@
 		DD3FAED41BD82017001C0957 = {
 			isa = PBXGroup;
 			children = (
-				DD3FAF111BD82398001C0957 /* miniReto.playground */,
 				DD3FAEDF1BD82017001C0957 /* cursoSwift */,
 				DD3FAEF61BD82017001C0957 /* cursoSwiftTests */,
 				DD3FAF011BD82017001C0957 /* cursoSwiftUITests */,
@@ -101,6 +100,7 @@
 		DD3FAEDF1BD82017001C0957 /* cursoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DD3FAF111BD82398001C0957 /* miniReto.playground */,
 				DD3FAEE01BD82017001C0957 /* AppDelegate.swift */,
 				DD3FAEE21BD82017001C0957 /* MasterViewController.swift */,
 				DD3FAEE41BD82017001C0957 /* DetailViewController.swift */,
