@@ -49,7 +49,6 @@
 		DD3FAEFE1BD82017001C0957 /* cursoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cursoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3FAF021BD82017001C0957 /* cursoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursoSwiftUITests.swift; sourceTree = "<group>"; };
 		DD3FAF041BD82017001C0957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD3FAF131BD8257E001C0957 /* miniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = miniReto.playground; path = ../miniReto.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +99,6 @@
 		DD3FAEDF1BD82017001C0957 /* cursoSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DD3FAF121BD82554001C0957 /* tarea */,
 				DD3FAEE01BD82017001C0957 /* AppDelegate.swift */,
 				DD3FAEE21BD82017001C0957 /* MasterViewController.swift */,
 				DD3FAEE41BD82017001C0957 /* DetailViewController.swift */,
@@ -128,15 +126,6 @@
 				DD3FAF041BD82017001C0957 /* Info.plist */,
 			);
 			path = cursoSwiftUITests;
-			sourceTree = "<group>";
-		};
-		DD3FAF121BD82554001C0957 /* tarea */ = {
-			isa = PBXGroup;
-			children = (
-				DD3FAF131BD8257E001C0957 /* miniReto.playground */,
-			);
-			name = tarea;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +487,7 @@
 				DD3FAF091BD82017001C0957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD3FAF0A1BD82017001C0957 /* Build configuration list for PBXNativeTarget "cursoSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +496,7 @@
 				DD3FAF0C1BD82017001C0957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD3FAF0D1BD82017001C0957 /* Build configuration list for PBXNativeTarget "cursoSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +505,7 @@
 				DD3FAF0F1BD82017001C0957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
